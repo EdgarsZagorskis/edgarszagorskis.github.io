@@ -3,41 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    h1{
-      color:blue
-    }
-  </style>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  body>*:nth-child(2){
+    border: 10px solid yellow;
+  }
+header{
+  text-align:center;
+  height: 20%;
+  background-color: gray
+}
+main {
+  height: 60%;
+width: 60%;
+margin-left:20%;
+  background-color: red
+}
+
+main {
+
+
+}
+
+aside {
+
+  background-color: skyblue
+}
+
+footer {
+
+  height: 20%;
+color: white;
+  background-color: purple
+}
+
+[role="main"] {
+
+  background-color: green
+}
+
+
+</style>
 </head>
 <body>
-  
-  <ul class="nav bg-dark">
-  <li class="nav-item">
-    <a class="nav-link active" href="/par-mani.html">Par muani</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
 
-<h1>Mani sauc Edgars</h1>
-<div class="alert alert-success" role="alert">
-  A simple success alert—check it out!
-</div>
-<footer>
-  logo
-     <a href="">Par mani</a>
-    <a href="">Sazina</a>
- <div>&copy 2020 MANS IPASUMS! Intelektualais!!!!!!</div>
-</footer>
+<header>header</header>
+<main>
+  <aside style="float:left">aside</aside>
+  <div role="main">main content</div>
+</main>
+<footer>footer</footer>
 
 </body>
 </html>
